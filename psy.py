@@ -19,9 +19,9 @@ from ctypes import *
 
 conf.verb = 0
 
-# Simple cmdline network toolkit.
+# SWiss ARMY KNIFE OF HACKING
 # Written by psyberlupus
-# *psy*
+# 
 # 19.10.2016
 
 
