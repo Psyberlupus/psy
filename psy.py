@@ -6,7 +6,7 @@ import getopt
 import threading
 import subprocess
 import signal
-import paramiko
+#import paramiko
 import os
 import struct
 import random
@@ -1157,9 +1157,9 @@ def dir_buster():
     word_queue = build_wordlist(wordlist_file)
     extensions = [".php",".bak",".orig",".inc"]
     print "Default Extentions : %s " %  extensions
-    extent = raw_input("psy:~>   added extention:  ")
+    extent = raw_input("psy:~>   added extension:  ")
     if extent:
-       extentions.append(extent)
+       extensions.append(extent)
     for i in range(int(threadc)):
         t = threading.Thread(target=dir_bruter, args=(site,word_queue,extensions,user_agent))
         t.start()
